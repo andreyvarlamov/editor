@@ -1,11 +1,11 @@
 CompileFlags:
     Add: [
         "-I/opt/homebrew/include",
+        "-isystem/Users/andreyvarlamov/dev/jects/editor/third_party",
         "-L/opt/homebrew/lib",
         "-lglfw",
         "-framework", "OpenGL",
         "-DGL_SILENCE_DEPRECATION",
         "-Wall",
-        "-Wextra",
-        "-Werror"
+        "-Wextra"
     ]
